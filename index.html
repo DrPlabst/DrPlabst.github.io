@@ -6,12 +6,32 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
 
     <!-- A-Frame itself -->
-<script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script>
+  var element=document.createElement('script');
+
+
+  if(navigator.userAgent.search("Chrome") & gt; = 0){
+     element.setAttribute('src', 'https://aframe.io/releases/1.3.0/aframe.min.js');
+   }else{
+     element.setAttribute('src', 'https://aframe.io/releases/0.9.0/aframe.min.js');
+   }
+   document.getElementById("...").appendChild(element);
+  </script>
 
 
 <!-- AR.js A-Frame components -->
-<script type='text/javascript' src='https://raw.githack.com/AR-js-org/AR.js/3.4.5/aframe/build/aframe-ar.js'></script>
-    
+        <script>
+  var element=document.createElement('script');
+
+
+  if(navigator.userAgent.search("Chrome") & gt; = 0){
+     element.setAttribute('src', 'https://raw.githack.com/AR-js-org/AR.js/3.4.5/aframe/build/aframe-ar.js');
+   }else{
+     element.setAttribute('src', 'https://rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js');
+   }
+   document.getElementById("...").appendChild(element);
+  </script>
+
 
     <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
 
