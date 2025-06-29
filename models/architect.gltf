@@ -8,10 +8,7 @@
 		{
 			"name":"Scene",
 			"nodes":[
-				0,
-				1,
-				2,
-				3
+				0
 			]
 		}
 	],
@@ -19,51 +16,15 @@
 		{
 			"mesh":0,
 			"name":"Cube",
+			"rotation":[
+				-0.7071068286895752,
+				0,
+				0,
+				0.7071068286895752
+			],
 			"translation":[
 				0,
 				1,
-				0
-			]
-		},
-		{
-			"mesh":1,
-			"name":"Cube.001",
-			"scale":[
-				0.5,
-				0.5,
-				0.5
-			],
-			"translation":[
-				0,
-				2.5,
-				0
-			]
-		},
-		{
-			"mesh":2,
-			"name":"Cube.002",
-			"scale":[
-				1.5,
-				0.5,
-				0.5
-			],
-			"translation":[
-				0,
-				3.5,
-				0
-			]
-		},
-		{
-			"mesh":3,
-			"name":"Cube.003",
-			"scale":[
-				0.5,
-				0.5,
-				1
-			],
-			"translation":[
-				0,
-				4.5,
 				0
 			]
 		}
@@ -114,7 +75,8 @@
 					0,
 					0,
 					1
-				]
+				],
+				"metallicFactor":0
 			}
 		}
 	],
@@ -130,12 +92,7 @@
 					},
 					"indices":3,
 					"material":0
-				}
-			]
-		},
-		{
-			"name":"Cube.002",
-			"primitives":[
+				},
 				{
 					"attributes":{
 						"POSITION":4,
@@ -144,12 +101,7 @@
 					},
 					"indices":3,
 					"material":1
-				}
-			]
-		},
-		{
-			"name":"Cube.003",
-			"primitives":[
+				},
 				{
 					"attributes":{
 						"POSITION":7,
@@ -158,12 +110,7 @@
 					},
 					"indices":3,
 					"material":2
-				}
-			]
-		},
-		{
-			"name":"Cube.004",
-			"primitives":[
+				},
 				{
 					"attributes":{
 						"POSITION":10,
@@ -216,14 +163,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				1,
-				1,
-				1
+				0.5,
+				2,
+				0.5
 			],
 			"min":[
-				-1,
-				-1,
-				-1
+				-0.5,
+				1,
+				-0.5
 			],
 			"type":"VEC3"
 		},
@@ -244,14 +191,14 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				1,
-				1,
-				1
+				1.5,
+				3,
+				0.5
 			],
 			"min":[
-				-1,
-				-1,
-				-1
+				-1.5,
+				2,
+				-0.5
 			],
 			"type":"VEC3"
 		},
@@ -272,13 +219,13 @@
 			"componentType":5126,
 			"count":24,
 			"max":[
-				1,
-				1,
+				0.5,
+				4,
 				1
 			],
 			"min":[
-				-1,
-				-1,
+				-0.5,
+				3,
 				-1
 			],
 			"type":"VEC3"
